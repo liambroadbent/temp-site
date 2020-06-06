@@ -1,0 +1,57 @@
+a {
+  text-decoration: none;
+  transition: 1s ease all;
+  &:hover {
+    box-shadow: 0px 10px 25px 7px rgba(116, 30, 30, 0.15);
+  }
+}
+
+.btn {
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  // border-radius: 3rem;
+  font-size: 1.6rem;
+  margin:1rem;
+  &.red {
+    color: $red;
+    &.bg {
+      background-color: $red;
+
+    }
+  }
+  &.blue {
+    color: $blue;
+    &.bg {
+      background-color: $blue;
+      color:white;
+    }
+  }
+
+  &.lightblue {
+    color: $lightblue;
+    &.bg {
+      background-color: $lightblue;
+      color:white;
+    }
+  }
+  &.darkblue {
+    color: $darkblue;
+    &.bg {
+      background-color: $darkblue;
+      color:white;
+    }
+  }
+  &.offwhite {
+    color: $offwhite;
+    &.bg {
+      background-color: $offwhite;
+      color:white;
+    }
+  }
+  &.bg {
+    color: white;
+  }
+  &.nuxt-link-exact-active{
+    color:$blue;
+  }
+}
