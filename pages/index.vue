@@ -87,17 +87,20 @@ h4 {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
+ 
   a {
     display: flex;
     align-items: flex-end;
+  
     svg {
       width: 1.8rem;
       margin-left: 1rem;
+
     }
   }
 }
 
-section{
+section {
   position: absolute;
 }
 .wrap {
@@ -106,21 +109,22 @@ section{
   box-shadow: $boxshadow1;
   position: relative;
   z-index: 3;
+
 }
 
-  img {
-    position: absolute;
-    &.one {
-      top: -2rem;
-      left: -6rem;
-      z-index: 1;
-      transform: rotate(180deg);
-    }
-    &.two {
-      bottom: -2rem;
-      right: -6rem;
-      z-index: 1;
-    }
-  }
+img {
+  position: absolute;
 
+  &.one {
+    top: -2rem;
+    left: -6rem;
+    z-index: 1;
+    transform: rotate(180deg);
+  }
+  &.two {
+    bottom: -2rem;
+    right: -6rem;
+    z-index: 1;
+  }
+}
 </style>

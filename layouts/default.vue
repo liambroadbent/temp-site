@@ -7,6 +7,6 @@
 <style lang="scss" scoped>
 @import 'assets/css/scss';
 div{
-	@include gradient($darkblue,$blue, horizontal);
+  @include gradient($darkblue,$blue, horizontal);
 }
 </style>

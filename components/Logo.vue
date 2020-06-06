@@ -19,5 +19,13 @@
 </template>
 
 <style lang="scss" scoped>
-
+@import 'assets/css/scss';
+svg{
+  width:100%;
+  height:auto;
+}
+.NuxtLogo {
+  animation: 1s appear;
+  margin: auto;
+}
 </style>
