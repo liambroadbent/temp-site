@@ -15,7 +15,6 @@ export default {
     return {
       title: this.title,
       meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'A Holding page, I use various parts of the site as a sandbox to test various technologies out' }
       ]
     }
