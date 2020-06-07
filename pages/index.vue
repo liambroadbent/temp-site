@@ -92,7 +92,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'assets/css/setup/variables';
+@import 'assets/css/scss';
 h1 {
   margin: 2rem 0 0 0;
   text-transform: uppercase;

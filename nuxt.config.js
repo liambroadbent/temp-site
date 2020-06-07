@@ -36,16 +36,12 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-168807490-1',
-        debug: {
-          sendHitTask: process.env.NODE_ENV === 'production'
-        }
-      }
-    ]
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-WCWPRTN',
+    enabled: process.env.NODE_ENV === 'production'
+  },
 
   /*
    ** Nuxt.js modules
