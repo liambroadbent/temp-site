@@ -40,7 +40,9 @@ export default {
   ],
   gtm: {
     id: 'GTM-WCWPRTN',
-    enabled: process.env.NODE_ENV === 'production'
+    enabled: process.env.NODE_ENV === 'production',
+    scriptDefer: true,
+    pageTracking: true,
   },
 
   /*
