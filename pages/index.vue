@@ -57,8 +57,12 @@
           </a>
         </div>
       </div>
-      <img class="one" src="/images/rounded-stripes.svg" />
-      <img class="two" src="/images/rounded-stripes.svg" />
+      <nuxt-link to="/about">
+        <img class="one" src="/images/rounded-stripes.svg" />
+      </nuxt-link>
+      <nuxt-link to="/contact">
+        <img class="two" src="/images/rounded-stripes.svg" />
+      </nuxt-link>
     </section>
   </div>
 </template>
