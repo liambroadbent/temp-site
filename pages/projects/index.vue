@@ -1,17 +1,14 @@
 <template>
-  <div class="container">
-    <h1>Contact Page</h1>
-  </div>
+    <div class="container">
+        <h1>Projects Page</h1>
+    </div>
 </template>
 
 <script>
 export default {
-  components: {
-    Logo
-  },
   data () {
     return {
-      title: 'Contact Liam Broadbent!'
+      title: 'Various Projects - Liam Broadbent'
     }
   },
   head () {
@@ -27,4 +24,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 </style>

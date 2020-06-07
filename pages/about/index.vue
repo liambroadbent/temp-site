@@ -1,14 +1,11 @@
 <template>
     <div class="container">
-        <h1>About page</h1>
+        <h1>About Page</h1>
     </div>
 </template>
 
 <script>
 export default {
-  components: {
-    Logo
-  },
   data () {
     return {
       title: 'About Liam Broadbent'
