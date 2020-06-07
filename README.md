@@ -1,22 +1,16 @@
-# liam-broadbent-nuxt-site
+# My Tempory Website
 
-> My Temp Website
+> A quick mess around with nuxt to develop a holding page for my domain. 
 
 ## Build Setup
 
-```bash
-# install dependencies
-$ npm install
+Set up with 2 heroku free tier apps in a pipeline, 
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+one auto deploys to dev.liambroadbent.com. the other deploys to master. 
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+I should develop any changes on local and check they work with npm run dev. 
 
-# generate static project
-$ npm run generate
-```
+If im happy with the local I can merge into dev to automatically push to test and checkout on my staging area dev.liambroadbent 
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+When I have all the features I want to go live with I push to master and heroku builds the site live. 
+
