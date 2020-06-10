@@ -10,7 +10,6 @@
         <li>Other</li>
         <li>Other</li>
       </ul>
-      <p>I plan to fill the page out more, make each project a card with a link offsite?</p>
     </div>
   </div>
 </template>
@@ -30,7 +29,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'A Holding page, I use various parts of the site as a sandbox to test various technologies out'
+            'I plan to link projects here'
         }
       ]
     }
