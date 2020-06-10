@@ -26,21 +26,19 @@ export default {
   css: [
     // SCSS file in the project
     '@assets/css/base.css',
-    '@assets/css/main.scss'
+    '@assets/css/main.scss',
   ],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-   
+  
   ],
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-168807490-1'
-    }]
+ 
   ],
   
   /*
