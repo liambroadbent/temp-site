@@ -9,9 +9,9 @@
         <li>
           <nuxt-link to="/about">About</nuxt-link>
         </li>
-        <li>
+        <!-- <li>
           <nuxt-link to="/projects">Projects</nuxt-link>
-        </li>
+        </li> -->
         <li>
           <nuxt-link to="/contact">Contact</nuxt-link>
         </li>
@@ -24,9 +24,12 @@
 @import 'assets/css/scss';
 div {
   @include gradient($darkblue, $blue, horizontal);
+  z-index: 1;
 }
 footer {
   min-height: 20vh;
+  position: relative;
+  z-index: 999;
   padding: 10%;
   background-color: #2c2c2c;
   ul {
