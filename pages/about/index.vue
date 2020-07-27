@@ -1,6 +1,13 @@
 <template>
     <div class="container">
-        <h1>About Page</h1>
+      <section>
+        <div class="wrap">
+          <h1>Hi, my name is Liam Broadbent</h1>
+          <h3>I am a creative designer/developer</h3>
+          <p>Focused on developing brands that convert.</p>
+
+        </div>
+      </section>
     </div>
 </template>
 
@@ -24,5 +31,17 @@ export default {
 
 <style lang="scss" scoped>
 @import 'assets/css/scss';
+
+h1{
+  text-align: left;
+  margin-bottom: 3rem;
+}
+h3{
+  text-align: left;
+  margin-bottom: 3rem;
+}
+p{
+  text-align: left;
+}
 
 </style>
