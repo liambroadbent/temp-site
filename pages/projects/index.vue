@@ -6,9 +6,10 @@
     <div class="body">
       <h4>Various projects</h4>
       <ul>
-        <li>BMR Calculator</li>
-        <li>Other</li>
-        <li>Other</li>
+        <li>
+          <nuxt-link to="/projects/landingpage1">Landing Page 1
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </div>
