@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <header>
-          <a href="#">ArtHole</a>
+          <a class="logo" href="#">ArtHole</a>
           <div class="navs">
               <nav>
                   <ul>
@@ -40,30 +40,18 @@
       <div class="part two">
           <div class="card one">
               <h4>Title goes here</h4>
-              <div class="img">
-
-              </div>
-              <div class="wrap">
-                  <h5>bit of text goes here</h5>
-              </div>
+              <div class="img one"></div>
+              <h5>bit of text goes here</h5>
           </div>
           <div class="card two">
               <h4>Title goes here</h4>
-              <div class="img">
-
-              </div>
-              <div class="wrap">
-                  <h5>bit of text goes here</h5>
-              </div>
+              <div class="img two"></div>
+              <h5>bit of text goes here</h5>
           </div>
           <div class="card three">
               <h4>Title goes here</h4>
-              <div class="img">
-
-              </div>
-              <div class="wrap">
-                  <h5>bit of text goes here</h5>
-              </div>
+              <div class="img three"></div>
+              <h5>bit of text goes here</h5>
           </div>
       </div>
   </div>
@@ -110,19 +98,25 @@ header{
     top:0;
     left:0%;
     padding:3rem;
+    .logo{
+        color:white;
+        font-size: 2rem;
+    }
     .navs{
         display:flex;
         nav{
             ul{
-                display: flex;
+
                 li{
                     margin-left:2rem;
                 }
             }     
         }
         ul{
+            display: flex;
             li{
                 margin-left:1rem;
+                font-size: 1rem;
                 a{
                     color:white;
                 }
@@ -192,14 +186,25 @@ header{
             text-align: left;
             width: 30%;
             padding-top: 3rem;
-            h4{
-                
+
+            h5{
+                margin-top: 1rem;
+                font-weight: normal;
             }
             .img{
                 margin-top: 3rem;
                 height:300px;
                 width:100%;
-                background-image: url('https://images.unsplash.com/photo-1596272983839-ce0e5a1f5485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80');
+                background-size: cover;
+                &.one{
+                    background-image: url('https://images.unsplash.com/photo-1595943350274-58503f7f6237?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+                }
+                &.two{
+                    background-image: url('https://images.unsplash.com/photo-1595502999951-de4d6e15bae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+                }
+                &.three{
+                    background-image: url('https://images.unsplash.com/photo-1595878715977-2e8f8df18ea8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+                }
             }
         }
     }
