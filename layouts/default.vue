@@ -33,6 +33,8 @@ footer {
   padding: 10%;
   background-color: #2c2c2c;
   ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     li {
