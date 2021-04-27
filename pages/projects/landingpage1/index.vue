@@ -82,6 +82,8 @@ export default {
 
 <style lang="scss" scoped>
 @import 'assets/css/scss';
+
+
 .container{
     background-color: #fff;
     background-image: none;
