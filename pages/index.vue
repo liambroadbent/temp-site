@@ -4,7 +4,7 @@
       <div class="wrap">
         <logo />
         <h1 class="title">Liam Broadbent</h1>
-        <h4 class="subtitle">Site Coming Soon</h4>
+        <h4 class="subtitle">Site Coming Soon!</h4>
         <div class="links">
           <a href="https://www.linkedin.com/in/liambroadbent/" class="btn red bg">
             Connect
@@ -127,7 +127,6 @@ section {
   box-shadow: $boxshadow1;
   position: relative;
   z-index: 3;
-
 }
 
 img {
