@@ -12,5 +12,5 @@ I should develop any changes on local and check they work with npm run dev.
 
 If im happy with the local I can merge into dev to automatically push to test and checkout on my staging area dev.liambroadbent 
 
-When I have all the features I want to go live with I push to master and heroku builds the site live. 
+When I have all the features I want to go live with I push to master and heroku builds the site live. !
 

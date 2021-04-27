@@ -122,7 +122,7 @@ section {
   position: absolute;
 }
 .wrap {
-  padding: 20%;
+  padding: 10vh;
   background-color: #fff;
   box-shadow: $boxshadow1;
   position: relative;
@@ -132,17 +132,24 @@ section {
 
 img {
   position: absolute;
+  transition: .3s ease all;
 
   &.one {
     top: -2rem;
     left: -6rem;
     z-index: 1;
     transform: rotate(180deg);
+    &:hover{
+      transform:scale(1.1) rotate(170deg);
+    }
   }
   &.two {
     bottom: -2rem;
     right: -6rem;
     z-index: 1;
+    &:hover{
+      transform:scale(1.1) rotate(-10deg);
+    }
   }
 }
 </style>
