@@ -4,7 +4,7 @@
       <div class="wrap">
         <logo />
         <h1 class="title">Liam Broadbent</h1>
-        <h4 class="subtitle">Site Coming Soon</h4>
+        <h4 class="subtitle">Site Coming Soon!</h4>
         <div class="links">
           <a href="https://www.linkedin.com/in/liambroadbent/" class="btn red bg">
             Connect
@@ -122,27 +122,33 @@ section {
   position: absolute;
 }
 .wrap {
-  padding: 20%;
+  padding: 10vh;
   background-color: #fff;
   box-shadow: $boxshadow1;
   position: relative;
   z-index: 3;
-
 }
 
 img {
   position: absolute;
+  transition: .3s ease all;
 
   &.one {
     top: -2rem;
     left: -6rem;
     z-index: 1;
     transform: rotate(180deg);
+    &:hover{
+      transform:scale(1.1) rotate(170deg);
+    }
   }
   &.two {
     bottom: -2rem;
     right: -6rem;
     z-index: 1;
+    &:hover{
+      transform:scale(1.1) rotate(-10deg);
+    }
   }
 }
 </style>
